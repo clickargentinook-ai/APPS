@@ -66,7 +66,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 alignment: AlignmentDirectional(0.01, 0.91),
                 child: FFButtonWidget(
                   onPressed: () async {
-                    context.goNamed(ApaMainShellWidget.routeName);
+                    context
+                        .pushNamed(Home19PropertyAppbookingappWidget.routeName);
                   },
                   text: 'Comenzar',
                   options: FFButtonOptions(
