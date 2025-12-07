@@ -29,16 +29,21 @@ class AppStateNotifier extends ChangeNotifier {
 }
 
 GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
-      initialLocation: '/',
+      initialLocation: ApaMainShellWidget.routePath,
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
-      errorBuilder: (context, state) => HomePageWidget(),
+      errorBuilder: (context, state) => ApaMainShellWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => HomePageWidget(),
+          builder: (context, _) => ApaMainShellWidget(),
+        ),
+        FFRoute(
+          name: ApaMainShellWidget.routeName,
+          path: ApaMainShellWidget.routePath,
+          builder: (context, params) => ApaMainShellWidget(),
         ),
         FFRoute(
           name: HomePageWidget.routeName,
