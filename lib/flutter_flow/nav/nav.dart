@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '/main.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 
 import '/index.dart';
@@ -33,12 +34,32 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
-      errorBuilder: (context, state) => HomePageWidget(),
+      errorBuilder: (context, state) => appStateNotifier.showSplashImage
+          ? Builder(
+              builder: (context) => Container(
+                color: Colors.transparent,
+                child: Image.asset(
+                  'assets/images/images.jpg',
+                  fit: BoxFit.contain,
+                ),
+              ),
+            )
+          : HomePageWidget(),
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => HomePageWidget(),
+          builder: (context, _) => appStateNotifier.showSplashImage
+              ? Builder(
+                  builder: (context) => Container(
+                    color: Colors.transparent,
+                    child: Image.asset(
+                      'assets/images/images.jpg',
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                )
+              : HomePageWidget(),
         ),
         FFRoute(
           name: HomePageWidget.routeName,
@@ -46,11 +67,133 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => HomePageWidget(),
         ),
         FFRoute(
-          name: Home19PropertyAppbookingappWidget.routeName,
-          path: Home19PropertyAppbookingappWidget.routePath,
-          builder: (context, params) => Home19PropertyAppbookingappWidget(),
+            name: Home19PropertyAppbookingappWidget.routeName,
+            path: Home19PropertyAppbookingappWidget.routePath,
+            builder: (context, params) => params.isEmpty
+                ? NavBarPage(initialPage: 'Home19PropertyAppbookingapp')
+                : NavBarPage(
+                    initialPage: 'Home19PropertyAppbookingapp',
+                    page: Home19PropertyAppbookingappWidget(),
+                  )),
+        FFRoute(
+          name: InauguramoselobservatoriodemediosWidget.routeName,
+          path: InauguramoselobservatoriodemediosWidget.routePath,
+          builder: (context, params) =>
+              InauguramoselobservatoriodemediosWidget(),
+        ),
+        FFRoute(
+          name: IntervencinsindicalistasdeArgentinayEEUUWidget.routeName,
+          path: IntervencinsindicalistasdeArgentinayEEUUWidget.routePath,
+          builder: (context, params) =>
+              IntervencinsindicalistasdeArgentinayEEUUWidget(),
+        ),
+        FFRoute(
+          name: APAenla42AsambleadelaOACIWidget.routeName,
+          path: APAenla42AsambleadelaOACIWidget.routePath,
+          builder: (context, params) => APAenla42AsambleadelaOACIWidget(),
+        ),
+        FFRoute(
+            name: NovedadesWidget.routeName,
+            path: NovedadesWidget.routePath,
+            builder: (context, params) => params.isEmpty
+                ? NavBarPage(initialPage: 'Novedades')
+                : NavBarPage(
+                    initialPage: 'Novedades',
+                    page: NovedadesWidget(),
+                  )),
+        FFRoute(
+            name: InstitucionalWidget.routeName,
+            path: InstitucionalWidget.routePath,
+            builder: (context, params) => params.isEmpty
+                ? NavBarPage(initialPage: 'Institucional')
+                : NavBarPage(
+                    initialPage: 'Institucional',
+                    page: InstitucionalWidget(),
+                  )),
+        FFRoute(
+            name: BeneficiosWidget.routeName,
+            path: BeneficiosWidget.routePath,
+            builder: (context, params) => params.isEmpty
+                ? NavBarPage(initialPage: 'Beneficios')
+                : NavBarPage(
+                    initialPage: 'Beneficios',
+                    page: BeneficiosWidget(),
+                  )),
+        FFRoute(
+            name: ContactosWidget.routeName,
+            path: ContactosWidget.routePath,
+            builder: (context, params) => params.isEmpty
+                ? NavBarPage(initialPage: 'Contactos')
+                : NavBarPage(
+                    initialPage: 'Contactos',
+                    page: ContactosWidget(),
+                  )),
+        FFRoute(
+          name: NoticiasWidget.routeName,
+          path: NoticiasWidget.routePath,
+          builder: (context, params) => NoticiasWidget(),
+        ),
+        FFRoute(
+          name: IIICongresoNacionaldejuventuddelaCATTWidget.routeName,
+          path: IIICongresoNacionaldejuventuddelaCATTWidget.routePath,
+          builder: (context, params) =>
+              IIICongresoNacionaldejuventuddelaCATTWidget(),
+        ),
+        FFRoute(
+          name: ComunicacionesWidget.routeName,
+          path: ComunicacionesWidget.routePath,
+          builder: (context, params) => ComunicacionesWidget(),
+        ),
+        FFRoute(
+          name: FallecimientodedanielferrariWidget.routeName,
+          path: FallecimientodedanielferrariWidget.routePath,
+          builder: (context, params) => FallecimientodedanielferrariWidget(),
+        ),
+        FFRoute(
+          name: Aprobacindelamemoriaybalance2024Widget.routeName,
+          path: Aprobacindelamemoriaybalance2024Widget.routePath,
+          builder: (context, params) =>
+              Aprobacindelamemoriaybalance2024Widget(),
+        ),
+        FFRoute(
+          name: FallecimientodeWalterNstorNuezWidget.routeName,
+          path: FallecimientodeWalterNstorNuezWidget.routePath,
+          builder: (context, params) => FallecimientodeWalterNstorNuezWidget(),
+        ),
+        FFRoute(
+          name: FallecimientodelcompaerogabrielvillarroelWidget.routeName,
+          path: FallecimientodelcompaerogabrielvillarroelWidget.routePath,
+          builder: (context, params) =>
+              FallecimientodelcompaerogabrielvillarroelWidget(),
+        ),
+        FFRoute(
+          name:
+              ComunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmontWidget
+                  .routeName,
+          path:
+              ComunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmontWidget
+                  .routePath,
+          builder: (context, params) =>
+              ComunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmontWidget(),
+        ),
+        FFRoute(
+          name: ComunicacionesdelosgremiosaeronauticosWidget.routeName,
+          path: ComunicacionesdelosgremiosaeronauticosWidget.routePath,
+          builder: (context, params) =>
+              ComunicacionesdelosgremiosaeronauticosWidget(),
+        ),
+        FFRoute(
+          name: GacetillasWidget.routeName,
+          path: GacetillasWidget.routePath,
+          builder: (context, params) => GacetillasWidget(),
+        ),
+        FFRoute(
+          name: DocumentosWidget.routeName,
+          path: DocumentosWidget.routePath,
+          builder: (context, params) => DocumentosWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
+      observers: [routeObserver],
     );
 
 extension NavParamExtensions on Map<String, String?> {

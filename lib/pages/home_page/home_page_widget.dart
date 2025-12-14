@@ -56,47 +56,55 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   child: Image.asset(
                     'assets/images/logo-azul_(1).png',
                     width: 357.8,
-                    height: 643.3,
+                    height: 646.3,
                     fit: BoxFit.contain,
-                    alignment: Alignment(0.0, 0.0),
+                    alignment: Alignment(0.0, -0.4),
                   ),
                 ),
               ),
               Align(
-                alignment: AlignmentDirectional(0.01, 0.91),
-                child: FFButtonWidget(
-                  onPressed: () async {
-                    context
-                        .pushNamed(Home19PropertyAppbookingappWidget.routeName);
-                  },
-                  text: 'Comenzar',
-                  options: FFButtonOptions(
-                    height: 62.94,
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
-                    iconPadding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                    color: Color(0xFF131D4F),
-                    textStyle: FlutterFlowTheme.of(context).titleSmall.override(
-                          font: GoogleFonts.interTight(
-                            fontWeight: FlutterFlowTheme.of(context)
-                                .titleSmall
-                                .fontWeight,
-                            fontStyle: FlutterFlowTheme.of(context)
-                                .titleSmall
-                                .fontStyle,
-                          ),
-                          color: Colors.white,
-                          fontSize: 35.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FlutterFlowTheme.of(context)
-                              .titleSmall
-                              .fontWeight,
-                          fontStyle:
-                              FlutterFlowTheme.of(context).titleSmall.fontStyle,
-                        ),
-                    elevation: 0.0,
-                    borderRadius: BorderRadius.circular(8.0),
+                alignment: AlignmentDirectional(0.01, 0.61),
+                child: Padding(
+                  padding: EdgeInsets.all(24.0),
+                  child: FFButtonWidget(
+                    onPressed: () async {
+                      context.pushNamed(
+                          Home19PropertyAppbookingappWidget.routeName);
+                    },
+                    text: 'Comenzar',
+                    options: FFButtonOptions(
+                      height: 39.9,
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
+                      iconPadding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      color: Color(0xFF131D4F),
+                      textStyle:
+                          FlutterFlowTheme.of(context).titleSmall.override(
+                                font: GoogleFonts.interTight(
+                                  fontWeight: FlutterFlowTheme.of(context)
+                                      .titleSmall
+                                      .fontWeight,
+                                  fontStyle: FlutterFlowTheme.of(context)
+                                      .titleSmall
+                                      .fontStyle,
+                                ),
+                                color: Colors.white,
+                                fontSize: 35.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FlutterFlowTheme.of(context)
+                                    .titleSmall
+                                    .fontWeight,
+                                fontStyle: FlutterFlowTheme.of(context)
+                                    .titleSmall
+                                    .fontStyle,
+                              ),
+                      elevation: 3.0,
+                      borderSide: BorderSide(
+                        width: 3.0,
+                      ),
+                      borderRadius: BorderRadius.circular(20.0),
+                    ),
                   ),
                 ),
               ),
