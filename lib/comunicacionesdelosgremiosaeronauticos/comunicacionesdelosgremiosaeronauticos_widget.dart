@@ -1,6 +1,5 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'comunicacionesdelosgremiosaeronauticos_model.dart';
@@ -50,34 +49,24 @@ class _ComunicacionesdelosgremiosaeronauticosWidgetState
         appBar: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
           automaticallyImplyLeading: false,
-          leading: Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(12.0, 6.0, 0.0, 6.0),
-            child: Container(
-              width: 44.0,
-              height: 44.0,
-              decoration: BoxDecoration(
-                color: FlutterFlowTheme.of(context).accent1,
-                shape: BoxShape.circle,
-                border: Border.all(
-                  color: FlutterFlowTheme.of(context).primary,
-                  width: 2.0,
+          leading: Icon(
+            Icons.arrow_back,
+            color: FlutterFlowTheme.of(context).primaryText,
+            size: 24.0,
+          ),
+          title: Text(
+            'Gremios Unidos',
+            style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  font: GoogleFonts.inter(
+                    fontWeight: FontWeight.bold,
+                    fontStyle:
+                        FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                  ),
+                  fontSize: 24.0,
+                  letterSpacing: 0.0,
+                  fontWeight: FontWeight.bold,
+                  fontStyle: FlutterFlowTheme.of(context).bodyMedium.fontStyle,
                 ),
-              ),
-              child: InkWell(
-                splashColor: Colors.transparent,
-                focusColor: Colors.transparent,
-                hoverColor: Colors.transparent,
-                highlightColor: Colors.transparent,
-                onTap: () async {
-                  context.pushNamed(NovedadesWidget.routeName);
-                },
-                child: Icon(
-                  Icons.arrow_back,
-                  color: Colors.black,
-                  size: 51.0,
-                ),
-              ),
-            ),
           ),
           actions: [],
           centerTitle: false,
@@ -124,20 +113,14 @@ class _ComunicacionesdelosgremiosaeronauticosWidgetState
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -266,20 +249,14 @@ class _ComunicacionesdelosgremiosaeronauticosWidgetState
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -408,20 +385,14 @@ class _ComunicacionesdelosgremiosaeronauticosWidgetState
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -550,20 +521,14 @@ class _ComunicacionesdelosgremiosaeronauticosWidgetState
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge

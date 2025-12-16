@@ -138,20 +138,14 @@ class _DocumentosWidgetState extends State<DocumentosWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -235,20 +229,14 @@ class _DocumentosWidgetState extends State<DocumentosWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -332,20 +320,14 @@ class _DocumentosWidgetState extends State<DocumentosWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -429,20 +411,14 @@ class _DocumentosWidgetState extends State<DocumentosWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -526,20 +502,14 @@ class _DocumentosWidgetState extends State<DocumentosWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge

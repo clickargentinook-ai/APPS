@@ -1,8 +1,8 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import 'institucional_widget.dart' show InstitucionalWidget;
+import 'preuba_widget.dart' show PreubaWidget;
 import 'package:flutter/material.dart';
 
-class InstitucionalModel extends FlutterFlowModel<InstitucionalWidget> {
+class PreubaModel extends FlutterFlowModel<PreubaWidget> {
   @override
   void initState(BuildContext context) {}
 

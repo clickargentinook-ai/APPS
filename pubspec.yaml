@@ -133,6 +133,11 @@ flutter:
     - assets/pdfs/
     - assets/jsons/
 
+  fonts:
+    - family: 'bold fuerte inter'
+      fonts:
+        - asset: assets/fonts/Inter_24pt-Black.ttf
+          weight: 700
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

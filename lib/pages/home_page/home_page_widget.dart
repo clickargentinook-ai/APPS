@@ -47,68 +47,138 @@ class _HomePageWidgetState extends State<HomePageWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: SafeArea(
           top: true,
-          child: Stack(
-            children: [
-              Align(
-                alignment: AlignmentDirectional(0.0, 0.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(10.0),
-                  child: Image.asset(
-                    'assets/images/logo-azul_(1).png',
-                    width: 357.8,
-                    height: 646.3,
-                    fit: BoxFit.contain,
-                    alignment: Alignment(0.0, -0.4),
-                  ),
-                ),
-              ),
-              Align(
-                alignment: AlignmentDirectional(0.01, 0.61),
-                child: Padding(
-                  padding: EdgeInsets.all(24.0),
-                  child: FFButtonWidget(
-                    onPressed: () async {
-                      context.pushNamed(
-                          Home19PropertyAppbookingappWidget.routeName);
-                    },
-                    text: 'Comenzar',
-                    options: FFButtonOptions(
-                      height: 39.9,
+          child: Align(
+            alignment: AlignmentDirectional(0.0, 0.1),
+            child: Stack(
+              children: [
+                Opacity(
+                  opacity: 0.6,
+                  child: Align(
+                    alignment: AlignmentDirectional(0.0, -1.0),
+                    child: Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
-                      iconPadding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: Color(0xFF131D4F),
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleSmall.override(
-                                font: GoogleFonts.interTight(
-                                  fontWeight: FlutterFlowTheme.of(context)
-                                      .titleSmall
-                                      .fontWeight,
-                                  fontStyle: FlutterFlowTheme.of(context)
-                                      .titleSmall
-                                      .fontStyle,
-                                ),
-                                color: Colors.white,
-                                fontSize: 35.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FlutterFlowTheme.of(context)
-                                    .titleSmall
-                                    .fontWeight,
-                                fontStyle: FlutterFlowTheme.of(context)
-                                    .titleSmall
-                                    .fontStyle,
-                              ),
-                      elevation: 3.0,
-                      borderSide: BorderSide(
-                        width: 3.0,
+                          EdgeInsetsDirectional.fromSTEB(0.0, 34.0, 0.0, 0.0),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(10.0),
+                        child: Image.asset(
+                          'assets/images/logo-azul_(1).png',
+                          width: 357.8,
+                          height: 193.35,
+                          fit: BoxFit.contain,
+                          alignment: Alignment(0.0, -0.4),
+                        ),
                       ),
-                      borderRadius: BorderRadius.circular(20.0),
                     ),
                   ),
                 ),
-              ),
-            ],
+                Opacity(
+                  opacity: 0.7,
+                  child: Align(
+                    alignment: AlignmentDirectional(0.0, 1.0),
+                    child: ClipRRect(
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Image.asset(
+                        'assets/images/Diseo_sin_ttulo.png',
+                        width: 366.61,
+                        height: 149.5,
+                        fit: BoxFit.contain,
+                      ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: AlignmentDirectional(0.0, -0.2),
+                  child: Text(
+                    'Bienvenidos  a \n\n',
+                    textAlign: TextAlign.center,
+                    style: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'bold fuerte inter',
+                          fontSize: 25.0,
+                          letterSpacing: 0.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                  ),
+                ),
+                Opacity(
+                  opacity: 0.7,
+                  child: Align(
+                    alignment: AlignmentDirectional(0.0, 1.0),
+                    child: Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 185.0),
+                      child: FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed(
+                              Home19PropertyAppbookingappWidget.routeName);
+                        },
+                        text: 'Iniciar',
+                        icon: Icon(
+                          Icons.arrow_forward,
+                          size: 15.0,
+                        ),
+                        options: FFButtonOptions(
+                          width: 270.0,
+                          height: 50.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              16.0, 0.0, 16.0, 0.0),
+                          iconAlignment: IconAlignment.end,
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: FlutterFlowTheme.of(context).primary,
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleSmall.override(
+                                    font: GoogleFonts.interTight(
+                                      fontWeight: FontWeight.w900,
+                                      fontStyle: FlutterFlowTheme.of(context)
+                                          .titleSmall
+                                          .fontStyle,
+                                    ),
+                                    color: Colors.white,
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.w900,
+                                    fontStyle: FlutterFlowTheme.of(context)
+                                        .titleSmall
+                                        .fontStyle,
+                                  ),
+                          elevation: 0.0,
+                          borderRadius: BorderRadius.circular(20.0),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Opacity(
+                  opacity: 0.5,
+                  child: Align(
+                    alignment: AlignmentDirectional(0.0, 0.1),
+                    child: Text(
+                      'Manténgase más cerca de las novedes  aeronáuticas y gremiales.',
+                      textAlign: TextAlign.center,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                            fontFamily: 'bold fuerte inter',
+                            fontSize: 25.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.bold,
+                          ),
+                    ),
+                  ),
+                ),
+                Align(
+                  alignment: AlignmentDirectional(0.0, -0.1),
+                  child: Text(
+                    'la App #SomosApa\n\n',
+                    textAlign: TextAlign.center,
+                    style: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'bold fuerte inter',
+                          color: Color(0xFF005187),
+                          fontSize: 24.0,
+                          letterSpacing: 0.0,
+                          fontWeight: FontWeight.bold,
+                        ),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),

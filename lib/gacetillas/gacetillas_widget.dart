@@ -65,14 +65,12 @@ class _GacetillasWidgetState extends State<GacetillasWidget> {
             'Gacetillas',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   font: GoogleFonts.interTight(
-                    fontWeight:
-                        FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                    fontWeight: FontWeight.bold,
                     fontStyle:
                         FlutterFlowTheme.of(context).headlineMedium.fontStyle,
                   ),
                   letterSpacing: 0.0,
-                  fontWeight:
-                      FlutterFlowTheme.of(context).headlineMedium.fontWeight,
+                  fontWeight: FontWeight.bold,
                   fontStyle:
                       FlutterFlowTheme.of(context).headlineMedium.fontStyle,
                 ),
@@ -149,20 +147,14 @@ class _GacetillasWidgetState extends State<GacetillasWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -291,20 +283,14 @@ class _GacetillasWidgetState extends State<GacetillasWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -421,20 +407,14 @@ class _GacetillasWidgetState extends State<GacetillasWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -563,20 +543,14 @@ class _GacetillasWidgetState extends State<GacetillasWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge
@@ -705,20 +679,14 @@ class _GacetillasWidgetState extends State<GacetillasWidget> {
                                           .bodyLarge
                                           .override(
                                             font: GoogleFonts.inter(
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyLarge
-                                                      .fontWeight,
+                                              fontWeight: FontWeight.w900,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyLarge
                                                       .fontStyle,
                                             ),
                                             letterSpacing: 0.0,
-                                            fontWeight:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyLarge
-                                                    .fontWeight,
+                                            fontWeight: FontWeight.w900,
                                             fontStyle:
                                                 FlutterFlowTheme.of(context)
                                                     .bodyLarge

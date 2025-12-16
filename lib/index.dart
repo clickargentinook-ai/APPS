@@ -16,7 +16,6 @@ export '/barradenavegacion/beneficios/beneficios_widget.dart'
     show BeneficiosWidget;
 export '/barradenavegacion/contactos/contactos_widget.dart'
     show ContactosWidget;
-export '/barradenavegacion/noticias/noticias_widget.dart' show NoticiasWidget;
 export '/noticias/i_i_i_congreso_nacionaldejuventuddela_c_a_t_t/i_i_i_congreso_nacionaldejuventuddela_c_a_t_t_widget.dart'
     show IIICongresoNacionaldejuventuddelaCATTWidget;
 export '/novedades/comunicaciones/comunicaciones/comunicaciones_widget.dart'
@@ -27,8 +26,6 @@ export '/novedades/aprobacindelamemoriaybalance2024/aprobacindelamemoriaybalance
     show Aprobacindelamemoriaybalance2024Widget;
 export '/novedades/comunicaciones/fallecimientode_walter_nstor_nuez/fallecimientode_walter_nstor_nuez_widget.dart'
     show FallecimientodeWalterNstorNuezWidget;
-export '/novedades/comunicaciones/fallecimientodelcompaerogabrielvillarroel/fallecimientodelcompaerogabrielvillarroel_widget.dart'
-    show FallecimientodelcompaerogabrielvillarroelWidget;
 export '/novedades/comunicaciones/comunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmont/comunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmont_widget.dart'
     show
         ComunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmontWidget;
@@ -36,3 +33,6 @@ export '/comunicacionesdelosgremiosaeronauticos/comunicacionesdelosgremiosaerona
     show ComunicacionesdelosgremiosaeronauticosWidget;
 export '/gacetillas/gacetillas_widget.dart' show GacetillasWidget;
 export '/documentos/documentos_widget.dart' show DocumentosWidget;
+export '/presenciadela_c_t_aenel42_congresodela_t_u_c/presenciadela_c_t_aenel42_congresodela_t_u_c_widget.dart'
+    show PresenciadelaCTAenel42CongresodelaTUCWidget;
+export '/noticias/noticias_widget.dart' show NoticiasWidget;

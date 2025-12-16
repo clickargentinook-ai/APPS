@@ -129,11 +129,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                     page: ContactosWidget(),
                   )),
         FFRoute(
-          name: NoticiasWidget.routeName,
-          path: NoticiasWidget.routePath,
-          builder: (context, params) => NoticiasWidget(),
-        ),
-        FFRoute(
           name: IIICongresoNacionaldejuventuddelaCATTWidget.routeName,
           path: IIICongresoNacionaldejuventuddelaCATTWidget.routePath,
           builder: (context, params) =>
@@ -161,12 +156,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           builder: (context, params) => FallecimientodeWalterNstorNuezWidget(),
         ),
         FFRoute(
-          name: FallecimientodelcompaerogabrielvillarroelWidget.routeName,
-          path: FallecimientodelcompaerogabrielvillarroelWidget.routePath,
-          builder: (context, params) =>
-              FallecimientodelcompaerogabrielvillarroelWidget(),
-        ),
-        FFRoute(
           name:
               ComunicadodeapoyoalosminerosdespedidosensantacruzporlamineranewmontWidget
                   .routeName,
@@ -191,6 +180,17 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: DocumentosWidget.routeName,
           path: DocumentosWidget.routePath,
           builder: (context, params) => DocumentosWidget(),
+        ),
+        FFRoute(
+          name: PresenciadelaCTAenel42CongresodelaTUCWidget.routeName,
+          path: PresenciadelaCTAenel42CongresodelaTUCWidget.routePath,
+          builder: (context, params) =>
+              PresenciadelaCTAenel42CongresodelaTUCWidget(),
+        ),
+        FFRoute(
+          name: NoticiasWidget.routeName,
+          path: NoticiasWidget.routePath,
+          builder: (context, params) => NoticiasWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
       observers: [routeObserver],

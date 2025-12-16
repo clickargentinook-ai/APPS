@@ -1,5 +1,4 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import '/index.dart';
 import 'comunicacionesdelosgremiosaeronauticos_widget.dart'
     show ComunicacionesdelosgremiosaeronauticosWidget;
 import 'package:flutter/material.dart';

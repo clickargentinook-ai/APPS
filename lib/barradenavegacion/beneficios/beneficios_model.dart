@@ -1,5 +1,4 @@
 import '/flutter_flow/flutter_flow_util.dart';
-import '/index.dart';
 import 'beneficios_widget.dart' show BeneficiosWidget;
 import 'package:flutter/material.dart';
 
