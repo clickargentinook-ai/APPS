@@ -1,5 +1,6 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
+import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'i_i_i_congreso_nacionaldejuventuddela_c_a_t_t_model.dart';
@@ -44,10 +45,19 @@ class _IIICongresoNacionaldejuventuddelaCATTWidgetState
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.of(context).secondaryBackground,
         automaticallyImplyLeading: false,
-        leading: Icon(
-          Icons.chevron_left_rounded,
-          color: FlutterFlowTheme.of(context).primaryText,
-          size: 32.0,
+        leading: InkWell(
+          splashColor: Colors.transparent,
+          focusColor: Colors.transparent,
+          hoverColor: Colors.transparent,
+          highlightColor: Colors.transparent,
+          onTap: () async {
+            context.pushNamed(NoticiasWidget.routeName);
+          },
+          child: Icon(
+            Icons.chevron_left_rounded,
+            color: FlutterFlowTheme.of(context).primaryText,
+            size: 32.0,
+          ),
         ),
         title: Text(
           'Regreesar',

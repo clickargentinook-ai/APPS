@@ -52,7 +52,7 @@ class _APAenla42AsambleadelaOACIWidgetState
           hoverColor: Colors.transparent,
           highlightColor: Colors.transparent,
           onTap: () async {
-            context.pushNamed(Home19PropertyAppbookingappWidget.routeName);
+            context.pushNamed(NoticiasWidget.routeName);
           },
           child: Icon(
             Icons.chevron_left_rounded,
