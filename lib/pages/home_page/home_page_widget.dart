@@ -74,35 +74,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 Opacity(
                   opacity: 0.7,
                   child: Align(
-                    alignment: AlignmentDirectional(0.0, 1.0),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(8.0),
-                      child: Image.asset(
-                        'assets/images/Diseo_sin_ttulo.png',
-                        width: 366.61,
-                        height: 149.5,
-                        fit: BoxFit.contain,
-                      ),
-                    ),
-                  ),
-                ),
-                Align(
-                  alignment: AlignmentDirectional(0.0, -0.2),
-                  child: Text(
-                    'Bienvenidos  a \n\n',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'bold fuerte inter',
-                          fontSize: 25.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.bold,
-                        ),
-                  ),
-                ),
-                Opacity(
-                  opacity: 0.7,
-                  child: Align(
-                    alignment: AlignmentDirectional(0.0, 1.0),
+                    alignment: AlignmentDirectional(0.0, 1.6),
                     child: Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 185.0),
@@ -148,33 +120,66 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                   ),
                 ),
                 Opacity(
-                  opacity: 0.5,
+                  opacity: 0.7,
                   child: Align(
-                    alignment: AlignmentDirectional(0.0, 0.1),
+                    alignment: AlignmentDirectional(-0.34, -0.14),
                     child: Text(
-                      'Manténgase más cerca de las novedes  aeronáuticas y gremiales.',
-                      textAlign: TextAlign.center,
+                      '#SomosAPA',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'bold fuerte inter',
-                            fontSize: 25.0,
+                            color: FlutterFlowTheme.of(context).primary,
+                            fontSize: 63.0,
                             letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w900,
                           ),
                     ),
                   ),
                 ),
-                Align(
-                  alignment: AlignmentDirectional(0.0, -0.1),
-                  child: Text(
-                    'la App #SomosApa\n\n',
-                    textAlign: TextAlign.center,
-                    style: FlutterFlowTheme.of(context).bodyMedium.override(
-                          fontFamily: 'bold fuerte inter',
-                          color: Color(0xFF005187),
-                          fontSize: 24.0,
-                          letterSpacing: 0.0,
-                          fontWeight: FontWeight.bold,
-                        ),
+                Opacity(
+                  opacity: 0.7,
+                  child: Align(
+                    alignment: AlignmentDirectional(0.06, -0.01),
+                    child: Text(
+                      'LA APLICACIÓN DEL PERONSAL AERONÁUTICO',
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                            font: GoogleFonts.inter(
+                              fontWeight: FontWeight.w900,
+                              fontStyle: FlutterFlowTheme.of(context)
+                                  .bodyMedium
+                                  .fontStyle,
+                            ),
+                            fontSize: 15.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.w900,
+                            fontStyle: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .fontStyle,
+                          ),
+                    ),
+                  ),
+                ),
+                Opacity(
+                  opacity: 0.4,
+                  child: Align(
+                    alignment: AlignmentDirectional(0.0, 0.5),
+                    child: Text(
+                      '\"INICIAR\" PARA INGRESAR AL MUNDO GRAMILISTA AERONÁUTICO ',
+                      textAlign: TextAlign.center,
+                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                            font: GoogleFonts.inter(
+                              fontWeight: FontWeight.w900,
+                              fontStyle: FlutterFlowTheme.of(context)
+                                  .bodyMedium
+                                  .fontStyle,
+                            ),
+                            fontSize: 15.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.w900,
+                            fontStyle: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .fontStyle,
+                          ),
+                    ),
                   ),
                 ),
               ],
